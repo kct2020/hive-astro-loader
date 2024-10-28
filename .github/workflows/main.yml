@@ -9,6 +9,7 @@ on:
       - "README.md"
       - "package.json"
       - "tsconfig.json"
+      - ".npmrc"
 jobs:
   build:
     runs-on: ubuntu-latest
