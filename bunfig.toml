@@ -1,0 +1,6 @@
+telemetry = false
+
+[test]
+coverage = true
+overageThreshold = 0.9
+coverageReporter  = ["text", "lcov"]
