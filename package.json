@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git+ssh://git@github.com/instytutfi/hive-astro-loader.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.mts",
   "files": [
