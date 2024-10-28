@@ -5,6 +5,7 @@ on:
       - main
     paths:
       - "src/**"
+      - "README.md"
       - "package.json"
       - "tsconfig.json"
 jobs:
