@@ -18,7 +18,9 @@ export function adaptPost(post: Discussion): Post {
       : undefined,
     category: post.category,
     tags: post.json_metadata.tags,
-    image: post.json_metadata.image?.pop(),
+    image: post.json_metadata.image?.length
+      ? post.json_metadata.image[0]
+      : undefined,
     canonical: post.url,
     content: post.body,
     meta: {
