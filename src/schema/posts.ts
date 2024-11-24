@@ -1,4 +1,4 @@
-import type { Community } from "~/schema/community.ts";
+import type { Communities } from "~/schema/communities.ts";
 
 export type Post = {
   id: string;
@@ -7,7 +7,7 @@ export type Post = {
   description: string;
   created: Date;
   updated?: Date;
-  community?: Community;
+  community?: Communities;
   category: string;
   tags: string[];
   image?: string;
