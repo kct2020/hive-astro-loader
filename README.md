@@ -25,7 +25,7 @@ that this package provides:
 
 ```ts
 import { defineCollection } from "astro:content";
-import { hiveBlogLoader } from "@onhive.io/astro-loader";
+import { hiveBlogLoader, hiveAccountsLoader } from "@onhive.io/astro-loader";
 
 export const collections = {
   blog: defineCollection({
