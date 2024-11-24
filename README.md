@@ -18,9 +18,10 @@ Or use our favorite package manager.
 
 ## Usage
 
-### Hive Blog Loader
+In your Astro project, edit the `/src/content/config.ts` and define any collections using the loaders
+that this package provides:
 
-In your Astro project, edit the `/src/content/config.ts`:
+### Hive Blog Loader
 
 ```ts
 import { defineCollection } from "astro:content";
@@ -30,11 +31,22 @@ export const collections = {
   blog: defineCollection({
     type: "content_layer",
     loader: hiveBlogLoader("hive.coding") // Selected username
+  }),
+  accounts: defineCollection({
+    type: "content_layer",
+    loader: hiveAccountsLoader("hive.coding") // or ["acc1", "acc2"] for multiple accounts
   })
 };
 ```
 
-For now only `hiveBlogLoader` is available, more coming soon!
+## Learn more
+
+- [Astro](https://astro.build/)
+- [Content Layer API](https://astro.build/blog/content-layer-deep-dive/)
+
+## Support
+
+If you have any questions or need help, please join our [Discord server](https://discord.gg/3u9v7b4w).
 
 ## Contributing
 
