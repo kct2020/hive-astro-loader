@@ -1,5 +1,16 @@
 {
   "name": "@onhive.io/astro-loader",
+  "description": "Astro Content Layer loader for the Hive blockchain",
+  "homepage": "https:/onhive.io/tools/hive-astro-loader/",
+  "keywords": [
+    "astro",
+    "astro-component",
+    "withastro",
+    "astro-loader",
+    "content-layer",
+    "hive"
+  ],
+  "license": "MIT",
   "version": "0.2.1",
   "author": "mietek.dev <hi@mietek.dev>",
   "repository": {
@@ -49,14 +60,5 @@
   },
   "bugs": {
     "url": "https://github.com/instytutfi/hive-astro-loader/issues"
-  },
-  "description": "Astro Content Layer loader for the Hive blockchain",
-  "homepage": "https:/onhive.io/tools/hive-astro-loader/",
-  "keywords": [
-    "astro",
-    "astro-loader",
-    "content-layer",
-    "hive"
-  ],
-  "license": "MIT"
+  }
 }
