@@ -13,4 +13,4 @@ I'm changing `package.json` to get it useable for me. Just hacking - I know this
 - `name` to clarify it's not the proper library
 - `build` to remove `bunx` because I don't understand it.
 
-Then I'll try again to test in Codespace.
+As a learning exercise, I see that merging to the main branch needs a workflow to publish the library. But I can't publish this. So, I'm just going to try it without `.github/workflows/main.yml`.
