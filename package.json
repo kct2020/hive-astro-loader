@@ -1,5 +1,5 @@
 {
-  "name": "@onhive.io/astro-loader",
+  "name": "@kct2020/hive-astro-loader",
   "description": "Astro Content Layer loader for the Hive blockchain",
   "homepage": "https:/onhive.io/tools/hive-astro-loader/",
   "keywords": [
@@ -26,7 +26,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "bunx tsup src/index.ts",
+    "build": "tsup src/index.ts",
     "dev": "bunx tsup src/index.ts --watch",
     "lint": "bunx eslint src --fix",
     "pretty": "bunx prettier src --write",
