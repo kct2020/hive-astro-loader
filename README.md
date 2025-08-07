@@ -6,6 +6,10 @@ From [Astro Content Layer loader for the Hive blockchain](https://github.com/ins
 2. Change `hiveBlogLoader` to return permlink and renderedContent
 3. See if other changes needed for Shrewdies.com
 
+## 250807 codespace-test
+
+It's late! So I'm short-cutting this and keeping the `dist` in the repo. For now!
+
 ## 250807 remove-husky
 
 Still struggling with straightforward deploy of main repo. So now removed scripts apart from build.
